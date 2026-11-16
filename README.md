@@ -57,8 +57,17 @@ A 100% pixel-perfect mobile frontend replica of the **UserTesting** contributor 
    - **Contact support** (blue text link)
    - **Log out** (centered blue button)
 
-5. **Profile Screen**
-   - Matching UserTesting profile with contributor rating, linked devices (4 devices), permissions, and demographics.
+5. **Profile Screen (100% Screenshot Matching)**
+   - Header with bold **"Profile"** title.
+   - White rounded card at top with:
+     - Label: **"Username"**
+     - Value: **"devcoder5433"**
+   - Centered message in the middle of screen:
+     - *"To view or edit your profile details, check your profile on the UserTesting website."*
+   - Bottom navigation bar with "Profile" selected (lavender capsule indicator).
+
+6. **PWA App Icon (Powered by `download.png`)**
+   - Browser se install karne par `img/download.png` se banaya gaya rounded squircle app icon set hota hai (`icons/icon-192.png`, `icons/icon-512.png`, `icons/apple-touch-icon.png`).
 
 6. **Pure Clean App View**
    - Top status bar (hotspot, battery, network, time) and bottom virtual soft keys (back/home/recents) have been removed as requested.
