@@ -326,53 +326,53 @@ const testDetailsData = [
     testStatus: "Completed",
     type: "Survey"
   },
-  // Index 3: Nov 13, 07:17 am ($4 pending - 15 days payment: Nov 28)
+  // Index 3: Nov 13, 07:17 am ($1 pending - 15 days payment: Nov 28)
   {
     date: "Nov 13, 2026",
     time: "07:17 am",
     hash: "9c17eb4c-233b-4c46-a525-c78c3c60c0d5",
     paidUsd: "$0",
     status: "Pending",
-    amount: "$4",
+    amount: "$1",
     paymentDate: "Nov 28, 2026",
     paypal: "guptaankit957036@gmail.com",
     testStatus: "Completed",
     type: "Survey"
   },
-  // Index 4: Nov 11, 01:22 pm
+  // Index 4: Nov 11, 01:22 pm ($1 pending - 15 days payment: Nov 26)
   {
     date: "Nov 11, 2026",
     time: "01:22 pm",
     hash: "a590df0f-feab-4784-aaeb-c3a447824612",
     paidUsd: "$0",
-    status: "Completed",
-    amount: "$0",
+    status: "Pending",
+    amount: "$1",
     paymentDate: "Nov 26, 2026",
     paypal: "guptaankit957036@gmail.com",
     testStatus: "Completed",
     type: "Survey"
   },
-  // Index 5: Nov 3, 09:23 pm
+  // Index 5: Nov 3, 09:23 pm ($1 Paid / 15 days payment: Nov 18, 2026)
   {
     date: "Nov 3, 2026",
     time: "09:23 pm",
     hash: "14f857bf-f8ce-4a2a-b0bb-70b5db837e08",
-    paidUsd: "$0",
-    status: "Completed",
-    amount: "$0",
+    paidUsd: "$1",
+    status: "Paid",
+    amount: "$1",
     paymentDate: "Nov 18, 2026",
     paypal: "guptaankit957036@gmail.com",
     testStatus: "Completed",
     type: "Survey"
   },
-  // Index 6: Nov 3, 01:29 pm
+  // Index 6: Nov 3, 01:29 pm ($1 Paid / 15 days payment: Nov 18, 2026)
   {
     date: "Nov 3, 2026",
     time: "01:29 pm",
     hash: "21966d22-2299-4643-a298-987b8bbe909d",
-    paidUsd: "$0",
-    status: "Completed",
-    amount: "$0",
+    paidUsd: "$1",
+    status: "Paid",
+    amount: "$1",
     paymentDate: "Nov 18, 2026",
     paypal: "guptaankit957036@gmail.com",
     testStatus: "Completed",

@@ -28,26 +28,26 @@ A 100% pixel-perfect mobile frontend replica of the **UserTesting** contributor 
 3. **Test History Screen**
    - Header with bold **"Test history"** title.
    - Stats Summary Card:
-     - **Paid total (USD): $2** (with subtitle *"Pending $14"*)
+     - **Paid total (USD): $4** (with subtitle *"Pending $12"*)
      - **Total tests: 11**
    - Month Banner: **"Nov, 2026"**
      - Nov 13, 09:20 pm (`#34ea1f9f-661e-4c91-8c02-3e2fe388fbef`) with **~~$10~~** (strikethrough) `>`
      - Nov 13, 02:16 pm (`#43c442fd-ad7f-4c06-83dc-37bf36fc3dea`) with **~~$10~~** (strikethrough) `>`
-     - Nov 13, 09:49 am (`#7512faab-93ee-45ca-81c8-7bacd0f1e4d8`) `>`
-     - Nov 13, 07:17 am (`#9c17eb4c-233b-4c46-a525-c78c3c60c0d5`) `>`
-     - Nov 11, 01:22 pm (`#a590df0f-feab-4784-aaeb-c3a447824612`) `>`
-     - Nov 3, 09:23 pm (`#14f857bf-f8ce-4a2a-b0bb-70b5db837e08`) `>`
-     - Nov 3, 01:29 pm (`#21966d22-2299-4643-a298-987b8bbe909d`) `>`
+     - Nov 13, 09:49 am (`#7512faab-93ee-45ca-81c8-7bacd0f1e4d8`) `>` [Pending $10]
+     - Nov 13, 07:17 am (`#9c17eb4c-233b-4c46-a525-c78c3c60c0d5`) `>` [Pending $1]
+     - Nov 11, 01:22 pm (`#a590df0f-feab-4784-aaeb-c3a447824612`) `>` [Pending $1]
+     - Nov 3, 09:23 pm (`#14f857bf-f8ce-4a2a-b0bb-70b5db837e08`) with **$1** `>` [Paid $1]
+     - Nov 3, 01:29 pm (`#21966d22-2299-4643-a298-987b8bbe909d`) with **$1** `>` [Paid $1]
      - Nov 3, 01:18 pm (`#5e9a4d90-2ef4-45a2-9dc1-fe09f02ff9aa`) with **~~$10~~** (strikethrough) `>`
    - Month Banner: **"Oct, 2026"**
-     - Oct 29, 02:14 pm (`#afe55c1d-cb86-446e-ab80-1877aba34ecb`) with **$1** `>`
+     - Oct 29, 02:14 pm (`#afe55c1d-cb86-446e-ab80-1877aba34ecb`) with **$1** `>` [Paid $1]
      - Oct 27, 09:41 pm (`#bbf36608-baad-4324-8202-64ab8e7d8a2d`) with **~~$10~~** (strikethrough) `>`
-     - Oct 27, 09:16 am (`#89696eb3-9936-4313-afe9-540557ffe2a8`) with **$1** `>`
+     - Oct 27, 09:16 am (`#89696eb3-9936-4313-afe9-540557ffe2a8`) with **$1** `>` [Paid $1]
 
 4. **PWA Mobile Install Support (App Icon)**
    - `manifest.json` aur `sw.js` (Service Worker) configured hai.
    - Mobile browser (Chrome / Safari / Edge) mein **"Install app"** ya **"Add to Home screen"** karne par rounded UserTesting app icon banta hai.
-   *(Note: The $10 and $1 strikethrough accurately reflects why the Paid Total is exactly $1 + $1 = $2).*
+   *(Note: Sabhi tests strictly $1 ya $10 ke hain - koi $4 test nahi hai. Paid Total = $1 + $1 + $1 + $1 = $4, aur Pending Total = $10 + $1 + $1 = $12).*
 
 4. **More Screen (Screen 7)**
    - **About** `>` (displays version 6.14.0 modal)
